@@ -1,7 +1,12 @@
+import HeaderComponent from "./components/HeaderComponent";
+import PatientDetails from "./components/PatientDetails";
+import sampleData from "./data/SampleData";
+
 export default function App() {
   return (
-    <h2 className="font-bold underline">
-      Hello world!
-    </h2>
+    <div>
+      <HeaderComponent/>
+      <PatientDetails data={sampleData}/>
+    </div>
   )
 }
