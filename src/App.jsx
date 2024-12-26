@@ -1,6 +1,6 @@
 import HeaderComponent from "./components/HeaderComponent";
 import PatientDetails from "./components/PatientDetails";
-import sampleData from "./data/SampleData";
+import sampleData from "./data/sampleData";
 
 export default function App() {
   return (
